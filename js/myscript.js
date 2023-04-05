@@ -16,3 +16,6 @@ if (age > 65) {
 } else {
     console.log(biglietto)
 }
+if (age > 18 || age < 64) {
+    console.log(biglietto)
+}
