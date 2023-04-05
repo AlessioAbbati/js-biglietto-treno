@@ -16,5 +16,8 @@ if (age > 65) {
 
 if (age >= 18 || age <= 64) {
     console.log(biglietto);
-    document.getElementById("biglietto").innerHTML
 }
+
+document.getElementById("biglietto").innerHTML = biglietto
+document.getElementById("bigliettoScontatoU18").innerHTML = bigliettoScontatoU18
+document.getElementById("bigliettoScontatoO65").innerHTML = bigliettoScontatoO65
